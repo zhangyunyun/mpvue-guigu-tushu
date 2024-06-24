@@ -1,0 +1,49 @@
+{
+  "setting": {
+    "compileHotReLoad": true
+  },
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/index/main",
+          "pathName": "pages/index/main",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/first/main",
+          "pathName": "pages/first/main",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/detail/main",
+          "pathName": "pages/detail/main",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/list/main",
+          "pathName": "pages/list/main",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/search/main",
+          "pathName": "pages/search/main",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/mine/main",
+          "pathName": "pages/mine/main",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  },
+  "description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
+  "projectname": "guigu_tushu"
+}

@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/first/main",
+    "pages/index/main",
+    "pages/list/main",
+    "pages/detail/main",
+    "pages/search/main",
+    "pages/mine/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "硅谷图书",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar":{
+    "list": [
+      {
+        "pagePath": "pages/index/main",
+        "text": "图书列表",
+        "iconPath": "/static/tabs/ciwei.png",
+        "selectedIconPath": "/static/tabs/ciwei_hl.png"
+      },
+      {
+        "pagePath": "pages/search/main",
+        "text": "搜索图书",
+        "iconPath": "/static/tabs/dianying.png",
+        "selectedIconPath": "/static/tabs/dianying_hl.png"
+      },
+      {
+        "pagePath": "pages/mine/main",
+        "text": "个人中心",
+        "iconPath": "/static/tabs/yuedu.png",
+        "selectedIconPath": "/static/tabs/yuedu_hl.png"
+      }
+    ]
+  }
+}
